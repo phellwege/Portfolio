@@ -1,0 +1,62 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
+
+
+#full_body_wrap {
+    background: #41474e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+#image_wrap {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #05e3a1, #05aae7);
+}
+.text_wrap {
+    margin:7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+    align-items: center;
+}
+.text_wrap a {
+    color:white;
+}
+
+img {
+    width:100%;
+}
+h3 {
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;
+}
+#HeadShotImg {
+    border-radius: 50%;
+    width: 50%;
+}
+#image_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#quote {
+    font-style: italic;
+}
